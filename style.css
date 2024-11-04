@@ -1,0 +1,106 @@
+input[type=submit]{
+    margin: 20px 7px;
+    border: none;
+    padding: 8px 24px;
+}
+
+.query-row input[name=q] {
+    width: 584px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #ccc;
+    background-image: url('search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    
+}
+
+.navbar{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar > li{
+    margin: 10px 20px;
+}
+
+a:link{
+    color:black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+a:active{
+    color:black;
+}
+
+.google-image{
+    width: 272px;
+    height: 92px;
+}
+
+.content{
+    margin: 20px;
+}
+
+.btns{
+    margin: 20px; 
+    display: inline-block;
+}
+
+.inputs{
+    margin: 20px; 
+    display: inline-block;
+}
+
+.h1-advanced{
+    color: #cc1919;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.find-page{
+    font-size: 16px;
+    margin: 25px 35px;
+}
+
+.row-input{
+    margin: 15px 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left{
+    width: 200px;
+}
+.left-p{
+    margin-top: 8px;
+}
+
+.middle{
+    width: 464px;
+    margin-right: 35px;
+}
+.middle input{
+    height: 30px;
+}
+.btn-advanced{
+    display: flex;
+    justify-content: flex-end;
+    width: 705px;
+}
